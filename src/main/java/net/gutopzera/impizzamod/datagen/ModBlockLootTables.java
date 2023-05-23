@@ -29,7 +29,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.PAU_BRASIL_SAPLING.get());
 
         this.add(ModBlocks.PAU_BRASIL_LEAVES.get(),
-                (block -> createLeavesDrops(block, ModBlocks.PAU_BRASIL_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES)));
+                (block -> createLeavesDrops(block, ModBlocks.PAU_BRASIL_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES)));
 
     }
 

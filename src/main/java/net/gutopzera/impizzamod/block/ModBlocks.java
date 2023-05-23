@@ -3,6 +3,7 @@ package net.gutopzera.impizzamod.block;
 import net.gutopzera.impizzamod.ImpizzaMod;
 import net.gutopzera.impizzamod.block.custom.ModFlammableRotatedPillarBlock;
 import net.gutopzera.impizzamod.item.ModItems;
+import net.gutopzera.impizzamod.worldgen.tree.PauBrasilGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -87,7 +88,7 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> PAU_BRASIL_SAPLING = registerBlock("pau_brasil_sapling",
-            () -> new SaplingBlock(null, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new SaplingBlock(new PauBrasilGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
