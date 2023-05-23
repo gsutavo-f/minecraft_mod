@@ -51,12 +51,31 @@ public class ImpizzaMod {
             event.accept(ModBlocks.FRED_ORE);
         }
 
+        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.PAU_BRASIL_LEAVES);
+            event.accept(ModBlocks.PAU_BRASIL_LOG);
+            event.accept(ModBlocks.PAU_BRASIL_WOOD);
+            event.accept(ModBlocks.PAU_BRASIL_PLANKS);
+            event.accept(ModBlocks.STRIPPED_PAU_BRASIL_LOG);
+            event.accept(ModBlocks.STRIPPED_PAU_BRASIL_WOOD);
+            event.accept(ModBlocks.PAU_BRASIL_SAPLING);
+        }
+
         if (event.getTab() == ModCreativeModeTabs.IMPIZZA_TAB) {
             event.accept(ModItems.PIZZA);
             event.accept(ModItems.RAW_PIZZA);
             event.accept(ModBlocks.FRED_ORE);
             event.accept(ModItems.NERD_DEBRIS);
+
+            event.accept(ModBlocks.PAU_BRASIL_LEAVES);
+            event.accept(ModBlocks.PAU_BRASIL_LOG);
+            event.accept(ModBlocks.PAU_BRASIL_WOOD);
+            event.accept(ModBlocks.PAU_BRASIL_PLANKS);
+            event.accept(ModBlocks.STRIPPED_PAU_BRASIL_LOG);
+            event.accept(ModBlocks.STRIPPED_PAU_BRASIL_WOOD);
+            event.accept(ModBlocks.PAU_BRASIL_SAPLING);
         }
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

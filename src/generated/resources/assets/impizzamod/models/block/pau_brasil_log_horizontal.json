@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "impizzamod:block/pau_brasil_log_top",
+    "side": "impizzamod:block/pau_brasil_log"
+  }
+}

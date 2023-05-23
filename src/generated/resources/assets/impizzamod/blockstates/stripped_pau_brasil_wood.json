@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "impizzamod:block/stripped_pau_brasil_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "impizzamod:block/stripped_pau_brasil_wood"
+    },
+    "axis=z": {
+      "model": "impizzamod:block/stripped_pau_brasil_wood_horizontal",
+      "x": 90
+    }
+  }
+}

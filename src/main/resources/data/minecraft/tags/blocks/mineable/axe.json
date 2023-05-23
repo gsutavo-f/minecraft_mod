@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-
+    "impizzamod:pau_brasil_planks",
+    "impizzamod:pau_brasil_log",
+    "impizzamod:stripped_pau_brasil_log",
+    "impizzamod:pau_brasil_wood",
+    "impizzamod:stripped_pau_brasil_wood"
   ]
 }

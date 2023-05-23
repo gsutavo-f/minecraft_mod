@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "impizzamod:block/stripped_pau_brasil_log",
+    "side": "impizzamod:block/stripped_pau_brasil_log"
+  }
+}

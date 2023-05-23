@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "impizzamod:block/pau_brasil_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "impizzamod:block/pau_brasil_log"
+    },
+    "axis=z": {
+      "model": "impizzamod:block/pau_brasil_log_horizontal",
+      "x": 90
+    }
+  }
+}
