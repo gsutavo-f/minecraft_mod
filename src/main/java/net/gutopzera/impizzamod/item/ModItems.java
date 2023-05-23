@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     private static final FoodProperties delPatioFoodProperties = new FoodProperties.Builder()
             .nutrition(10)
-            .saturationMod(0.35f)
+            .saturationMod(0.5f)
             .meat()
             .build();
 
